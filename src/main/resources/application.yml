@@ -1,0 +1,4 @@
+spring:
+  batch:
+    job:
+      enabled: false # Will be set to true when ready to run the batch job

@@ -1,0 +1,7 @@
+retailers:
+  99spokes:
+    url: "https://99spokes.com/en-NZ/bikes?region=earth"
+    selectors:
+      bikeName: "h1.bike-name"
+      price: ".price-value"
+      # Add more selectors as needed

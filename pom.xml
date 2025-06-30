@@ -44,6 +44,20 @@
 			<artifactId>h2</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+		     <!-- JSoup for HTML parsing -->
+		     <dependency>
+		         <groupId>org.jsoup</groupId>
+		         <artifactId>jsoup</artifactId>
+		         <version>1.21.1</version>
+		     </dependency>
+		     <!-- Placeholder for GraphQL Client -->
+		     <!--
+		     <dependency>
+		         <groupId>com.graphql-java-kickstart</groupId>
+		         <artifactId>graphql-client-spring-boot-starter</artifactId>
+		         <version>13.0.0</version>
+		     </dependency>
+		     -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
